@@ -23,6 +23,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   font-size: 2em;
+  margin-bottom: 20px;
 }
 
 #size {
