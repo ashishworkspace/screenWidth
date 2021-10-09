@@ -38,20 +38,9 @@ body{
     color: #ff0057;
     // font-weight: bold;
 }
-
-@media (max-width: 300px){
+@media (min-width: 1000px){
     .container{
-        background-color: $color-1;
-    }
-}
-@media (max-width: 500px){
-    .container{
-        background-color: $color-2;
-    }
-}
-@media (max-width: 900px){
-    .container{
-        background-color: $color-3;
+        background-color: $color-5;
     }
 }
 @media (max-width: 1000px){
@@ -59,8 +48,21 @@ body{
         background-color: $color-4;
     }
 }
-@media (min-width: 1000px){
+@media (max-width: 900px){
     .container{
-        background-color: $color-5;
+        background-color: $color-3;
     }
 }
+@media (max-width: 500px){
+    .container{
+        background-color: $color-2;
+    }
+}
+@media (max-width: 300px){
+    .container{
+        background-color: $color-1;
+    }
+}
+
+
+

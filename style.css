@@ -39,21 +39,9 @@ body {
   color: #ff0057;
 }
 
-@media (max-width: 300px) {
+@media (min-width: 1000px) {
   .container {
-    background-color: #c4c4c4;
-  }
-}
-
-@media (max-width: 500px) {
-  .container {
-    background-color: #f2ffc6;
-  }
-}
-
-@media (max-width: 900px) {
-  .container {
-    background-color: #d4c8ff;
+    background-color: #ffd3af;
   }
 }
 
@@ -63,9 +51,21 @@ body {
   }
 }
 
-@media (min-width: 1000px) {
+@media (max-width: 900px) {
   .container {
-    background-color: #ffd3af;
+    background-color: #d4c8ff;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    background-color: #f2ffc6;
+  }
+}
+
+@media (max-width: 300px) {
+  .container {
+    background-color: #c4c4c4;
   }
 }
 /*# sourceMappingURL=style.css.map */
